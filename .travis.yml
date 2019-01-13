@@ -1,2 +1,4 @@
 language: objective-c
-script: xcodebuild -workspace HelloWorld.xcodeproj/project.xcworkspace -scheme HelloWorld -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+xcode_project: HelloWorld.xcodeproj # path to your xcodeproj folder
+xcode_scheme: HelloWorld
+xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
