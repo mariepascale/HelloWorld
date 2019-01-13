@@ -1,0 +1,2 @@
+language: objective-c
+script: xcodebuild -workspace HelloWorld.xcodeproj/project.xcworkspace -scheme HelloWorld -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
